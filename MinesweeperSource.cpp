@@ -179,7 +179,7 @@ int main()
     nhapdulieu(n,m,k);
 bool **DaMo=sinhmangKiemTraDaMo(n,m);
     char ** Map=sinhbandoHienMin(n,m,k);
-    inbando(Map,n,m);
+  
     cout<<endl;
     char ** MapDisplay=sinhbandoKhongHienMin(n,m);
     choigame(Map,MapDisplay,n,m,DaMo);
